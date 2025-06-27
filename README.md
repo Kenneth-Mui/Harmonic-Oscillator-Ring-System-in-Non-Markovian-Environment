@@ -1,0 +1,10 @@
+# Harmonic-Oscillator-Ring-System-in-Non-Markovian-Environment
+Engineering a non-Markovian Environment to facilitate Enhanced Entanglement and to Generate Hidden Quantum Networks
+
+This repository contains all the raw data files, i.e. .txt files, and the Mathematica Code used to process the data for the paper titled, 
+"Engineering a non-Markovian Environment to facilitate Enhanced Entanglement and to Generate Hidden Quantum Networks"
+.txt files with a trailing file name "..._params" tell the parameters that were used to generate the data.
+.png files are simply the output of the data after running the Mathematica notebook files, .nb files.
+The .txt files of the raw data are in the form of nested lists.
+They contain the data that's usually plotting logarithmic negativity versus the time. Some times the data is plotting against something else.
+In principle, you can recreate the plots or the png files using the raw data.
