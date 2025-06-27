@@ -1,3 +1,5 @@
+Figure6-Data-Info.md
+
 non-Markovian System Data
 
 Varying Environmental Coupling, β = {0.04,..., 0.12} with increments of 0.01.
