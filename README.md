@@ -6,5 +6,6 @@ This repository contains all the raw data files, i.e. .txt files, and the Mathem
 .txt files with a trailing file name "..._params" tell the parameters that were used to generate the data.
 .png files are simply the output of the data after running the Mathematica notebook files, .nb files.
 The .txt files of the raw data are in the form of nested lists.
+The order of the data for the Logarithmic Negativity, LN, between oscillator pairs. in the nested lists are found inside the "..._params" .txt files.
 They contain the data that's usually plotting logarithmic negativity versus the time. Some times the data is plotting against something else.
 In principle, you can recreate the plots or the png files using the raw data.
