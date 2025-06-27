@@ -1,3 +1,5 @@
+Figure3-Data-Info.md
+
 Markovian System Data
 
 Varying Nearest Neighbor Coupling, η = {0.01,..., 0.07} with increments of 0.01.
