@@ -6,7 +6,7 @@ Varying Environmental Coupling, β = {0.04,..., 0.12} with increments of 0.01.
 
 {n, β, η, m, ω, Ω, γ}
 
-{4, Vary, 0.07, 1, 1, 0, 0.5}
+{4, Vary, 0, 1, 1, 0, 0.5}
 
 {tstart, tend}
 
@@ -22,7 +22,7 @@ Varying Environmental Coupling, β = {0.04,..., 0.12} with increments of 0.01.
 
 {n, β, η, m, ω}
 
-{4, Vary, 0.07, 1, 1}
+{4, Vary, 0, 1, 1}
 
 {tstart, tend}
 
