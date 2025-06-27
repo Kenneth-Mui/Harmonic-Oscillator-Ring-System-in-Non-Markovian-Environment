@@ -1,5 +1,4 @@
 # Harmonic-Oscillator-Ring-System-in-Non-Markovian-Environment
-Engineering a non-Markovian Environment to facilitate Enhanced Entanglement and to Generate Hidden Quantum Networks
 
 This repository contains all the raw data files, i.e. .txt files, and the Mathematica Code used to process the data for the paper titled, 
 "Engineering a non-Markovian Environment to facilitate Enhanced Entanglement and to Generate Hidden Quantum Networks"
