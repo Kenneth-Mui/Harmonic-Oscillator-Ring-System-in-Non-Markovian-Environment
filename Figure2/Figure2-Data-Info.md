@@ -1,3 +1,5 @@
+Figure2-Data-Info.md
+
 Closed System Data
 
 Varying Nearest Neighbor Coupling, η = {0.01,..., 0.07} with increments of 0.01.
