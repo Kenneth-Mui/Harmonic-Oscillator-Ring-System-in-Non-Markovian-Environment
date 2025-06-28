@@ -3,6 +3,7 @@ Figure9-Data-Info.md
 non-Markovian System Data
 
 Varying Central Frequency, Ω = {1,..., 2} with increments of 0.05.
+
 The number of oscillators, n = {2, 4}
 
 {n, β, η, m, ω, Ω, γ}
