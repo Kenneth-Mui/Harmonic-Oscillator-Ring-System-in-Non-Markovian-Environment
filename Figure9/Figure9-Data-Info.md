@@ -6,7 +6,7 @@ Varying Central Frequency, Ω = {1,..., 2} with increments of 0.05.
 
 {n, β, η, m, ω, Ω, γ}
 
-{4, Vary, 0, 1, Ω, Vary, 0.5}
+{4, 0.30, 0, 1, Ω, Vary, 0.5}
 
 Note: We keep resonance the entire time, Ω=ω.
 
