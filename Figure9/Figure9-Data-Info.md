@@ -2,13 +2,13 @@ Figure9-Data-Info.md
 
 non-Markovian System Data
 
-Varying Central Frequency, Ω = {0.01,..., 2} with increments of 0.01.
+Varying Central Frequency, Ω = {1,..., 2} with increments of 0.05.
 
 {n, β, η, m, ω, Ω, γ}
 
-{4, Vary, 0, 1, 1, Vary, 0.5}
+{4, Vary, 0, 1, Ω, Vary, 0.5}
 
-Note: As Ω varies, it passes through resonance when Ω=ω=1.
+Note: We keep resonance the entire time, Ω=ω.
 
 {tstart, tend}
 
