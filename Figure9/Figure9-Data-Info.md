@@ -3,10 +3,11 @@ Figure9-Data-Info.md
 non-Markovian System Data
 
 Varying Central Frequency, Ω = {1,..., 2} with increments of 0.05.
+The number of oscillators, n = {2, 4}
 
 {n, β, η, m, ω, Ω, γ}
 
-{4, 0.30, 0, 1, Ω, Vary, 0.5}
+{Vary, 0.30, 0, 1, Ω, Vary, 0.5}
 
 Note: We keep resonance the entire time, Ω=ω.
 
