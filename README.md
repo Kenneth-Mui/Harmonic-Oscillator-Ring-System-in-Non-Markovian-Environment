@@ -12,4 +12,6 @@ The .txt files of the raw data are in the form of nested lists.
 The order of the data for the Logarithmic Negativity, LN, between oscillator pairs. in the nested lists are found inside the "..._params" .txt files.
 
 They contain the data that's usually plotting logarithmic negativity versus the time. Sometimes the data is plotting against something else, you will determine this in the output .png file that comes out after running the data through the Mathematica file.
-In principle, you can recreate the plots or the png files using the raw data even if you can't open the Mathematica file. Those files in the "Figure" folders are just used to compile the data into a nice graph.
+In principle, you can recreate the plots or the .png files using the raw data even if you can't open the Mathematica file. Those files in the "Figure" folders are just used to compile the data into a nice graph.
+
+If you are able to open the Mathematica notebook file, I have set the directory according to my own personal computer. So you will need to edit the directory of where it pulls the raw data files from.
