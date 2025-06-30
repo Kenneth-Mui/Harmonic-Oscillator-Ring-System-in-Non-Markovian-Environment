@@ -1,0 +1,7 @@
+Oscillator Configurations and Data Files
+
+A1, A2, A3
+Config 2, Config 6, Config 10
+
+B1, B2, C1
+Config 3, Config 7, Config 16
