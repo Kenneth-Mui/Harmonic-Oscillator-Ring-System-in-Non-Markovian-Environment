@@ -1,0 +1,54 @@
+\section{Summary of Parameters}
+\label{Parameters Summary}
+
+\begin{table}[htp]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|}
+        \hline
+        ~ & \begin{tabular}{c}Number of\\Oscillators\end{tabular} & \begin{tabular}{c}Nearest\\Neighbor\\Coupling\end{tabular} & \begin{tabular}{c}Environmental\\Coupling\end{tabular} & \begin{tabular}{c}System\\Oscillator\\Frequency\end{tabular} & \begin{tabular}{c}Environmental\\Central\\Frequency\end{tabular} & \begin{tabular}{c}Inverse of the \\Environmental\\Memory Time\end{tabular} \\
+        Figure & $N$ & $\eta$ & $\beta$ & $\omega$ & $\Omega$ & $\gamma$ \\
+        \hline
+        \bottomrule
+        \ref{Closed_eta} & 4 & $\{0.01,...,0.07\}$ & 0 & 1 & $\mathrm{n/a}$ & $\mathrm{n/a}$ \\
+        \hline
+        \ref{Markovian_eta} & 4  & $\{0.01,...,0.07\}$ & 0.06 & 1 & $\mathrm{n/a}$ & $\mathrm{n/a}$ \\
+        \hline
+        \ref{NonMarkovian_eta} & 4  & $\{0.01,...,0.07\}$ & 0.06 & 1 & 0 & 0.5 \\
+        \hline
+        \begin{tabular}{c}\ref{NMM_Comparison_Beta}\\solid\end{tabular} & 4  & 0.07 & $\{0.01,...,0.04\}$ & 1 & n/a & n/a \\
+        \hline
+        \begin{tabular}{c}\ref{NMM_Comparison_Beta}\\dashed\end{tabular} & 4  & $0.07$ & $\{0.03,..., 0.12\}$ & 1 & 0 & 0.5 \\
+         \hline
+         \begin{tabular}{c}\ref{NMM_Comparison_Beta_eta_0}\\solid\end{tabular} & 4  & 0 & $\{0.04,...,0.12\}$ & 1 & n/a & n/a \\
+         \hline
+         \begin{tabular}{c}\ref{NMM_Comparison_Beta_eta_0}\\dashed\end{tabular} & 4  & 0 & $\{0.04,...,0.12\}$ & 1 & 0 & 0.5 \\
+         \hline
+         \ref{NonMarkovian_eta_resonance} & 4  & 0.07 & 0.06 & 1 & $\{0, 1\}$ & 0.5 \\
+        \hline
+        \ref{NonMarkovian_nobetamax_noeta_resonance} & 4 & 0 & 0.30 & 1 & $\{0.1,...,2\}$ & 0.5 \\
+        \hline
+        \ref{NonMarkovian_Generate_Entanglement_with_resonance} & 4  & 0 & 0.30 & $\Omega$ & $\{1,...,2\}$ & 0.5 \\
+        \hline
+        \ref{LNeqsLogOomegaBetaOptimized_Omega} & 4  & 0 & $\{0.30, \beta_{\mathrm{opt}}\rvert_{\Omega}\}$ & $\Omega$ & $\{1,...,8\}$ & 0.5 \\
+        \hline
+        \ref{Dependence_on_gamma} & 4  & 0 & 0.30 & $\Omega$ & 2 & \{0.5,...,15\} \\
+        \hline
+        \ref{Hidden_Quantum_Network_Entanglement_Dynamics} & 6  & 0 & 0.30 & $\{2, 3, 4, 5\}$ & 4 & 0.5 \\
+        \hline
+    \end{tabular}
+    \caption{Summary of parameters used for all plots in Figure~\ref{Closed_eta} through \ref{Hidden_Quantum_Network_Entanglement_Dynamics}. Figure~\ref{Closed_eta} through \ref{NonMarkovian_eta}, $\eta$ increments by $0.01$. Figure~\ref{NMM_Comparison_Beta} solid, $\beta$ increments by $0.01$. Figure~\ref{NMM_Comparison_Beta} dashed, $\beta$ increments by $0.03$. Figure~\ref{NMM_Comparison_Beta_eta_0} solid and dashed, $\beta$ increments by $0.04$. Figure~\ref{NonMarkovian_nobetamax_noeta_resonance}, $\Omega$ increments by 0.1. Figure~\ref{NonMarkovian_Generate_Entanglement_with_resonance}, $\Omega$ increments by 0.05. Figure~\ref{LNeqsLogOomegaBetaOptimized_Omega}, $\Omega$ increments by 1. Figure~\ref{Dependence_on_gamma}, $\gamma$ increments by 0.5. The values for $\beta_{\mathrm{opt}}\rvert_{\Omega}$ are listed in Table~\ref{Beta_Optimum}.}
+    \label{Parameters_Table}
+\end{table}
+
+\begin{table}[ht!]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+        \hline
+        $\Omega$ & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\
+        \hline
+        $\beta_{\mathrm{opt}}\rvert_{\Omega}$ & 0.354 & 0.507 & 0.620 & 0.715 & 0.800 & 0.874 & 0.943 & 1.010 \\
+        \hline
+    \end{tabular}
+    \caption{Optimum environmental coupling value, $\beta_{\mathrm{opt}}\rvert_{\Omega}$, for each Central Frequency, $\Omega$.}
+    \label{Beta_Optimum}
+\end{table}
